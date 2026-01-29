@@ -1,0 +1,18 @@
+class Kendaraan:
+  def jalan(self):
+    print("Kendaraan sedang berjalan")
+
+class Motor(Kendaraan):
+  def jalan(self): 
+    print("Motor berjalan dengan dua roda")
+
+class Mobil(Kendaraan):
+  def jalan(self):
+    print("Mobil berjalan dengan empat roda")
+
+# objek 
+k1 = Motor()
+k2 = Mobil()
+
+k1.jalan()
+k2.jalan()
